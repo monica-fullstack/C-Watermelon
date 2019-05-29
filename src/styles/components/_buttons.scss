@@ -1,0 +1,40 @@
+//main: ../main.scss
+
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+
+.button-details {
+  
+    font-size: 14px;
+    background-color:$button-color;
+    color: $text-color;
+    
+    border-radius: 10px;
+
+    &:hover{
+      background-color:$button-color;
+      
+      text-decoration: none;
+    }
+  }
+
+.btn-circle {
+    width: 45px;
+    height: 43px;
+    padding: 1px 0px;
+  
+    line-height: 0.42857;
+    background-color:$button-color;
+    
+    border-radius: 27px;
+  }
+  
+.caret {
+    float: right;
+  }
+  
+.up {
+    background-size: cover;
+    background-position: center;
+  }

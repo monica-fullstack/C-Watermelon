@@ -1,0 +1,62 @@
+//main: ../main.scss
+
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+
+header{
+     
+  .navbar{
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+    background: none;
+        
+    .navbar-brand {
+      font-size: 25px;
+      color: $text-color;        
+    }
+    .nav-item .nav-link{
+      padding: 5px 28px 0 7px;
+
+      font-size: 15px;
+      color: $text-color;
+    }
+    .nav-icon{
+      height: 30px;
+      padding: 0 3px 3px 0;
+    }
+    .icon-bar{
+      background: $text-color;
+    }
+    .buy{
+      padding: 5px 12px;
+  
+      color: $text-color;
+      font-size: 15px;
+    
+      background: none;
+      border: 2px solid $text-color;
+
+      &:hover{
+        padding: 7px 15px;
+                
+        background-color:$text-color;
+        color: $dark-green;
+                
+        text-decoration: none;
+      }
+    }
+  }
+
+  @include respond-to(md-down) {
+    .navbar{
+      background: $nav-color;
+    }
+  }
+  @include respond-to(xl) {
+    .navbar-menu{
+      padding: 12px 170px;
+    }
+  }
+}

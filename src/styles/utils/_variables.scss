@@ -1,0 +1,80 @@
+//main: ../main.scss
+
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+/// Regular font family
+$font-opensans: 'Open Sans';
+
+/// Regular font family
+$font-Myriad-Pro: 'Myriad Pro Regular';
+
+/// @type List
+$text-font-stack: $font-opensans, 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+
+/// Code (monospace) font family
+/// @type List
+$code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
+
+/// text color
+/// @type Color
+$text-color: #ffff !default;
+
+/// Main brand color
+/// @type Color
+$brand-color: #E50050 !default;
+
+/// Light grey
+/// @type Color
+$light-grey: #e9ede9 !default;
+
+/// Medium grey
+/// @type Color
+$mid-grey: #e2e4e1 !default;
+
+/// Dark grey
+/// @type Color 
+$dark-grey: #444 !default;
+
+/// Light green
+/// @type Color 
+$light-green: #4b794d !default;
+
+/// Medium green
+/// @type Color 
+$mid-green: #19331a !default;
+
+/// Dark green
+/// @type Color
+$dark-green: #2b342b !default;
+
+/// Card Title
+/// @type Color 
+$title-color: #7d7b7b !default;
+
+/// Card Title
+/// @type Color 
+$title-color2: #afacac !default;
+
+/// Card subtitle
+/// @type Color 
+$subtitle-color: #4e4e4e !default;
+
+/// Card price
+/// @type Color 
+$card-price: #b38e48 !default;
+
+/// Button Color
+/// @type Color 
+$button-color: #71ae5a !default;
+
+/// Nav Color
+/// @type Color 
+$nav-color: #39663b !default;
+
+/// Relative or absolute URL where all assets are served from
+/// @type String
+/// @example scss - When using a CDN
+///   $base-url: 'http://cdn.example.com/assets/';
+$base-url: '../assets/' !default;
